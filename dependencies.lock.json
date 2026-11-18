@@ -1,0 +1,17 @@
+{
+  "directory": "libraries",
+  "repositories": {
+    "libinfinicanvas": {
+      "url": "https://github.com/infiniforge/libinfinicanvas.git",
+      "commit": "7bfbde3ee86c4d947a658600851cc32e8c0faeaf"
+    },
+    "libinfiniselect": {
+      "url": "https://github.com/infiniforge/libinfiniselect.git",
+      "commit": "bef55c7c650b472b6e275088de684f83a4b064e0"
+    },
+    "libinfinistream": {
+      "url": "https://github.com/infiniforge/libinfinistream.git",
+      "commit": "6a551a523f3161902b3a1f70902fd2a4ee49a6cd"
+    }
+  }
+}

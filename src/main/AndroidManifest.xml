@@ -1,0 +1,65 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:allowBackup="false" android:fullBackupContent="false" android:dataExtractionRules="@xml/data_extraction_rules" android:label="InfiniCanvas"
+        android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true"
+        android:theme="@style/InfiniCanvasTheme">
+        <activity android:name=".CanvasActivity" android:exported="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="application/x-iff" />
+                <data android:mimeType="application/iff" />
+                <data android:mimeType="application/x-ilbm" />
+                <data android:mimeType="application/x-gimp" />
+                <data android:mimeType="application/x-xcf" />
+                <data android:mimeType="application/x-photoshop" />
+                <data android:mimeType="application/openraster" />
+                <data android:mimeType="application/x-krita" />
+                <data android:mimeType="application/postscript" />
+                <data android:mimeType="application/dicom" />
+                <data android:mimeType="video/x-mng" />
+                <data android:mimeType="video/x-flic" />
+                <data android:mimeType="video/x-fli" />
+                <data android:mimeType="video/x-flc" />
+                <data android:mimeType="video/fli" />
+                <data android:mimeType="video/flc" />
+                <data android:mimeType="video/flic" />
+                <data android:mimeType="application/x-fli" />
+                <data android:mimeType="application/x-flc" />
+                <data android:mimeType="application/x-flic" />
+                <data android:mimeType="application/x-infinicanvas-animation" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="application/x-iff" />
+                <data android:mimeType="application/iff" />
+                <data android:mimeType="application/x-ilbm" />
+                <data android:mimeType="application/x-gimp" />
+                <data android:mimeType="application/x-xcf" />
+                <data android:mimeType="application/x-photoshop" />
+                <data android:mimeType="application/openraster" />
+                <data android:mimeType="application/x-krita" />
+                <data android:mimeType="application/postscript" />
+                <data android:mimeType="application/dicom" />
+                <data android:mimeType="video/x-mng" />
+                <data android:mimeType="video/x-flic" />
+                <data android:mimeType="video/x-fli" />
+                <data android:mimeType="video/x-flc" />
+                <data android:mimeType="video/fli" />
+                <data android:mimeType="video/flc" />
+                <data android:mimeType="video/flic" />
+                <data android:mimeType="application/x-fli" />
+                <data android:mimeType="application/x-flc" />
+                <data android:mimeType="application/x-flic" />
+                <data android:mimeType="application/x-infinicanvas-animation" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

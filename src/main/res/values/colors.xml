@@ -1,0 +1,13 @@
+<resources>
+    <color name="background">#F5F6F4</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_secondary">#E9EEEB</color>
+    <color name="workspace">#E1E6E3</color>
+    <color name="text_primary">#192B29</color>
+    <color name="text_secondary">#526560</color>
+    <color name="accent">#166B63</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="outline">#CBD5D0</color>
+    <color name="checker_a">#FFFFFF</color>
+    <color name="checker_b">#D2DAD5</color>
+</resources>

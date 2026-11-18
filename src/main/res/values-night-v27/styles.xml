@@ -1,0 +1,6 @@
+<resources>
+    <style name="InfiniCanvasTheme" parent="InfiniCanvasBaseTheme">
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+</resources>
